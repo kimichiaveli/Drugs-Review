@@ -39,7 +39,7 @@ I will summarize my findings and insights here, to see the code you can click th
 </div>
 
 <div align="center">
-  <img src="chart/lexapro_sentiment_analysis.png">
+  <img src="chart/lexapro_sentiment_analysis.png" width="400">
 </div>
 
 ## Future Development
