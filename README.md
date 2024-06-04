@@ -6,9 +6,41 @@ I will summarize my findings and insights here, to see the code you can click th
 
 ## Drug's Effectiveness vs Side Effects
 
+<div align="center">
+  <img src="chart/effectiveness_sideEffects.png">
+</div>
+
+<div align="center">
+  <img src="chart/effectiveness_sideEffects_100.png">
+</div>
+
 ## The Most Popular Drug Used to Treat Acne Problems: Accutane
 
+<div align="center">
+  <img src="chart/accutane_reviews_wc.png">
+</div>
+
+<div align="center">
+  <img src="chart/accutane_benefits_wc.png">
+</div>
+
+<div align="center">
+  <img src="chart/accutane_sideEffects_wc.png">
+</div>
+
+<div align="center">
+  <img src="table/acne_top5.png">
+</div>
+
 ## The Most Popular Drug Prescribed to Treat Depression: Lexapro
+
+<div align="center">
+  <img src="table/depression_top5.png">
+</div>
+
+<div align="center">
+  <img src="chart/lexapro_sentiment_analysis.png">
+</div>
 
 ## Future Development
 
