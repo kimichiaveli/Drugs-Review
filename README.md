@@ -1,4 +1,4 @@
-![image](https://github.com/kimichiaveli/Drugs-Review/assets/66052910/732c9fef-f0d7-4f98-a7ce-184be7060dee)# Drugs-Review
+# Drugs-Review
 
 In this repo, you can look on how I will do Exploratory Data Analysis, visualization on reviews using WordCloud, keywords extraction, and sentiment analysis. You could also see the dataset that I used here: 🌟[Patient Ratings: Identifying Best Drugs!](https://www.kaggle.com/datasets/rabieelkharoua/patient-ratings-identifying-best-drugs)
 
