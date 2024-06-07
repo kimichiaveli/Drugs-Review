@@ -4,7 +4,9 @@ In this repo, you can look on how I will do Exploratory Data Analysis, visualiza
 
 I will summarize my findings and insights here, to see the code you can click the .ipynb file that I provided here.
 
-## Drug's Effectiveness vs Side Effects
+## Druglib.com Dataset
+
+### Drug's Effectiveness vs Side Effects
 
 <div align="center">
   <img src="chart/effectiveness_sideEffects.png">
@@ -26,7 +28,7 @@ What about ratings given by the consumer? It is shown that **rating has positive
   <img src="chart/heatmap_effectiveness-sideEffects_rating_corr.png">
 </div>
 
-## The Most Popular Drug Prescribed to Treat Depression: Lexapro
+### The Most Popular Drug Prescribed to Treat Depression: Lexapro
 
 I tried to dig deeper into a few certain medical conditions to gain more insights, one of them is *depression*. Here are the top 5 drugs prescribed to treat depression.
 
@@ -50,7 +52,7 @@ Using word cloud visualization on *Lexapro* data, it looks like not only to trea
 
 Using sentiment analysis, we can see that *Lexapro* generally received a mixed reviews. Most of them can be viewed as neutral, followed by negative and positive reviews.
 
-## The Most Popular Drug Used to Treat Acne Problems: Accutane
+### The Most Popular Drug Used to Treat Acne Problems: Accutane
 
 Next, I would like to dwell into acne treatment drugs. Here are the top 5 drugs prescribed to treat acne and the most popular is *Accutane*
 
@@ -85,7 +87,42 @@ I tried to analyze a little bit further by using Latent Dirichlet allocation mod
 
 There are 5 topics that i extracted, the consumers usually talks about dry skin in the sideEffects section but interestingly there are some mentions about depression. If we look into the raw data, there are a few comments about *Accutane* causing depression.
 
+## Drugs.com Dataset
+
+### Drugs.com Rating vs Sentiment
+
+Since the Drugs.com dataset only contains rating and review, I did sentiment analysis to get a better picture on how the review's sentiment correlates with the rating.
+
+<div align="center">
+  <img src="chart/drugscom_sentiment_rating.png">
+</div>
+
+<div align="center">
+  <img src="chart/drugscom_sentiment_rating_percent.png">
+</div>
+
+Using sentiment analysis, we can conclude that as rating goes up te distribution of sentiment on review section tends to be positive.
+
+### Drugs.com Birth Control Drugs
+
+<div align="center">
+  <img src="table/birthcontrol.png">
+</div>
+
+Using code I developed earlier to extract keywords from review section, we can see that the most reviewed drug for birth control is Etonogestrel. It has moderate rating compared to Levonorgestel and Skyla which have higher rating. Let's look into them to get insights what made Etonogestrel has mixed ratings.
+
+<div align="center">
+  <img src="chart/birthcontrol_sentiment.png">
+</div>
+
+Seems like more people react negatively when consuming Etonogestrel compared to other drugs. Let's find out what topics people that react negatively (giving 1 rating) to Etonogestrel and the other drugs.
+
+<div align="center">
+  <img src="chart/etonogestrel_review.png">
+</div>
+
+Seems like people who reacts negatively to consuming Etonogestrel experienced some kind of weight gain and bleeding.
+
 ## Future Development
 
-- Include another dataset from Drugs.com
 - Write a Python script build interactive dashboard using Dash to get insights on each drug
